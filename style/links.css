@@ -1,0 +1,19 @@
+.nav_container {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(163, 74, 246);
+}
+
+a:hover {
+  color: rgb(200, 6, 149);
+}
+
+@media screen and (max-width: 600px) {
+  li a {
+    color: white;
+  }
+}
